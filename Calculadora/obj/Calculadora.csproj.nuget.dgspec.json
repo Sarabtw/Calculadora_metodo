@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_metodo\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_Metodo\\calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_metodo\\Calculadora\\Calculadora.csproj": {
+    "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_Metodo\\calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_metodo\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_Metodo\\calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_metodo\\Calculadora\\Calculadora.csproj",
+        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_Metodo\\calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_metodo\\Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Sara\\Calculadora_Metodo\\calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
