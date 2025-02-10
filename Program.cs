@@ -8,13 +8,13 @@ class Program
         {
 
             Console.Clear();
-            Formatacao.Cor("Com qual operação deseja trabalhar? (Digite o número para escolher)\n", ConsoleColor.Green);
+            Formatacao.Cor("Com qual operação deseja trabalhar?\n", ConsoleColor.Green);
             Formatacao.Cor("1 - Adição\n", ConsoleColor.Cyan);
             Formatacao.Cor("2 - Subtração\n", ConsoleColor.Cyan);
             Formatacao.Cor("3 - Divisão\n", ConsoleColor.Cyan);
             Formatacao.Cor("4 - Multiplicação\n", ConsoleColor.Cyan);
             Formatacao.Cor("5 - Sair\n", ConsoleColor.Red);
-            Formatacao.Cor("Digite aqui: \n", ConsoleColor.Cyan);
+            Formatacao.Cor("Digite a opção aqui: \n", ConsoleColor.Cyan);
             string opcao = Console.ReadLine();
 
            if(opcao == "5")
@@ -44,8 +44,12 @@ class Program
             Operacoes.RealizarMultiplicacao(valor1, valor2);
             
             break;
+            default:
+            Formatacao.Cor("Opção inválida! Tente novamente.\n", ConsoleColor.Red);
+             break;
 
             }
+            Console.ReadKey();
        }
     }
 }

@@ -16,12 +16,9 @@ namespace Calculadora
             Console.WriteLine("Valor inválido! \n");
             goto repetir;
           }
-          else
-          {
             return valor;
-          }
       }
-       public static void RealizarAdicao(decimal valor1, decimal valor2)
+      public static void RealizarAdicao(decimal valor1, decimal valor2)
       {
         MostrarResultado("soma", valor1, valor2, valor1 + valor2);
       }
@@ -42,15 +39,15 @@ namespace Calculadora
         }
           MostrarResultado("divisão", valor1, valor2, valor1 / valor2);
       }
-       private static void MostrarResultado(string operacao, decimal valor1, decimal valor2, decimal resultado)
+      private static void MostrarResultado(string operacao, decimal valor1, decimal valor2, decimal resultado)
       {
         Formatacao.Cor($"O resultado da {operacao} ", ConsoleColor.Green);
         Formatacao.Cor($"de ", ConsoleColor.Green);
-        Formatacao.Cor($"{valor1} ", ConsoleColor.Green);
-        Formatacao.Cor($"e ", ConsoleColor.Cyan);
-        Formatacao.Cor($"{valor2} ", ConsoleColor.Green);
+        Formatacao.Cor($"{valor1} ", ConsoleColor.Red);
+        Formatacao.Cor($"e ", ConsoleColor.Green);
+        Formatacao.Cor($"{valor2} ", ConsoleColor.Red);
         Formatacao.Cor($"é: ", ConsoleColor.Green);
-        Formatacao.Cor($"{resultado}\n", ConsoleColor.Green);
+        Formatacao.Cor($"{resultado}\n", ConsoleColor.Red);
       }
    }
 
